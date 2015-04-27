@@ -1,13 +1,9 @@
 # Angular SEO
 
----
-
 ## Setup
 
     bower install
     npm install
-
----
 
 ## Usage
 
