@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Examples for SEO Analysis - How does ng-cloak'd content get indexed?</title>
+    <style>[ng-cloak] { display: none; }</style>
+    <script src="/vendor/js/LAB.min.js"></script>
+</head>
+<body>
+
+    <p><a href="/" rel="prev" title="Return to Examples Index">&laquo Return to Examples Index</a></p>
+
+    <h1>Hard-Coded Content v.s. Dynamic Content (async script loading with manual bootstrap + 0.25 second delay)</h1>
+
+
+    <aseo-dynamic-content ng-cloak>
+        <!-- this ng-cloak'd content will be replaced as soon as angular compiles this directive -->
+        <h2>This is hard-coded content which has been ng-cloak'd</h2>
+    </aseo-dynamic-content>
+
+    <script>
+        setTimeout(function () {
+            $LAB.script("/vendor/js/angular/angular.min.js")
+                .wait()
+                .script("/app/js/app.js")
+                .wait()
+                .script("/app/js/directives/dynamicContent.js")
+                .wait(function () {
+                    angular.bootstrap(document, [ 'aseo' ]);
+            });
+        }, 250);
+    </script>
+</body>
+</html>
