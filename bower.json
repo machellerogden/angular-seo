@@ -1,0 +1,18 @@
+{
+  "name": "angular-seo",
+  "version": "0.0.1",
+  "authors": [
+    "Mac Heller-Ogden <mheller-ogden@cars.com>",
+    "Nate Johnson <njohnson@cars.com>"
+  ],
+  "description": "Angular SEO PoCs",
+  "license": "Commercial",
+  "homepage": "http://git.cars.com/projects/MP/repos/angular-seo/browse",
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "angular": "1.3.15"
+  }
+}

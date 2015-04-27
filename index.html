@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular SEO - How does ng-cloak'd content get indexed?</title>
+    <style>[ng-cloak] { display: none; }</style>
+    <script src="vendor/js/angular/angular.min.js"></script>
+    <script src="app/js/app.js"></script>
+</head>
+<body ng-app="aseo">
+
+    <h1>Angular SEO</h1>
+
+    <aseo-dynamic-content ng-cloak>
+        <!-- this ng-cloak'd content will be replaced as soon as angular compiles this directive -->
+        <h2>This is hard-coded content which has been ng-cloak'd</h2>
+    </aseo-dynamic-content>
+
+</body>
+</html>
