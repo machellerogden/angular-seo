@@ -6,7 +6,7 @@
     "Nate Johnson <njohnson@cars.com>"
   ],
   "description": "Angular SEO PoCs",
-  "license": "Commercial",
+  "license": "Apache2",
   "homepage": "http://git.cars.com/projects/MP/repos/angular-seo/browse",
   "private": true,
   "ignore": [

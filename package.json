@@ -1,0 +1,26 @@
+{
+  "name": "angular-seo",
+  "version": "0.0.1",
+  "description": "Angular SEO",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.cars.com/scm/mp/angular-seo.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "seo"
+  ],
+  "contributors": [
+    "Mac Heller-Ogden <mheller-ogden@cars.com>",
+    "Nate Johnson <njohnson@cars.com>"
+  ],
+  "license": "Apache2",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
+}
