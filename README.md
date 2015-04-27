@@ -1,6 +1,6 @@
 # Angular SEO Examples
 
-This project is a self-contained static http server which hosts basic angular examples which can be used to test the SEO value of different development approaches.
+This project is a self-contained static http server which hosts basic angular examples. It can be used to test the SEO value of different development approaches.
 
 ## Setup
 
