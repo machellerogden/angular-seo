@@ -1,7 +1,7 @@
 {
   "name": "angular-seo",
   "version": "0.0.1",
-  "description": "Angular SEO",
+  "description": "Angular SEO Examples",
   "private": true,
   "scripts": {
     "start": "node node_modules/http-server/bin/http-server"
