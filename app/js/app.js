@@ -6,7 +6,7 @@
         return {
             restrict: 'E',
             scope: {},
-            templateUrl: 'app/js/templates/dynamic-content.html'
+            templateUrl: '/app/js/templates/dynamic-content.html'
         };
     });
 
