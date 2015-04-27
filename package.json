@@ -1,7 +1,7 @@
 {
   "name": "angular-seo",
   "version": "0.0.1",
-  "description": "Angular SEO Examples",
+  "description": "Angular Examples for SEO Analysis",
   "private": true,
   "scripts": {
     "start": "node node_modules/http-server/bin/http-server"
@@ -19,7 +19,7 @@
     "Mac Heller-Ogden <mheller-ogden@cars.com>",
     "Nate Johnson <njohnson@cars.com>"
   ],
-  "license": "Apache2",
+  "license": "Apache 2.0",
   "dependencies": {
     "http-server": "^0.8.0"
   }

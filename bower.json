@@ -5,8 +5,8 @@
     "Mac Heller-Ogden <mheller-ogden@cars.com>",
     "Nate Johnson <njohnson@cars.com>"
   ],
-  "description": "Angular SEO Examples",
-  "license": "Apache2",
+  "description": "Angular Examples for SEO Analysis",
+  "license": "Apache 2.0",
   "homepage": "http://git.cars.com/projects/MP/repos/angular-seo/browse",
   "private": true,
   "ignore": [
