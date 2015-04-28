@@ -1,5 +1,6 @@
-angular.module('aseo', [ 'ngRoute' ]).config([ '$routeProvider',
-    function ($routeProvider) {
+angular.module('aseo', [ 'ngRoute' ]).config([ '$locationProvider', '$routeProvider',
+    function ($locationProvider, $routeProvider) {
+        $locationProvider.hashPrefix('!');
         $routeProvider.
             when('/content-a', {
                 templateUrl: '/app/js/templates/basic-routing-a.html'
